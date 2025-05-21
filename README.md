@@ -32,7 +32,7 @@ Head rotations (independent X and Y-axis)
 
 Movement and rotation speeds
 
-# Animation:
+Animation:
 
 Legs animate only during movement using CalculateLegAnim()
 
@@ -56,7 +56,7 @@ Tabletop checkerboard pattern (8x8 grid)
 
 Robot shine from "shine.png" texture (red channel × 16)
 
-# Debug views:
+Debug views:
 
 Normal vectors
 

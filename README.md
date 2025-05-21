@@ -107,7 +107,7 @@ Click to fire laser from robot's head
 # Assets
 Textures: Wood_Table_Texture.png, Robot_Texture.png, shine.png
 
-# Models: torso.obj, head.obj, arm/leg OBJ files
+Models: torso.obj, head.obj, arm/leg OBJ files
 
 This project demonstrates computer graphics concepts including hierarchical modeling, Phong shading, texture mapping, and interactive 3D controls.
 

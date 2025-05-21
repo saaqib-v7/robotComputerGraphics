@@ -1,8 +1,8 @@
-# robotComputerGraphics
+# Robot Computer Graphics Project
 # Overview
 This project implements a 3D robot scene with interactive features, hierarchical transformations, and custom shaders. The scene includes a wooden table with a checkerboard pattern and an articulated robot that can move, rotate, and shoot lasers.
 
-Features
+# Features
 1. Scene Setup
 Camera: Positioned at (0,60,150) looking at (0,0,0) with world up vector (0,1,0)
 
@@ -32,7 +32,7 @@ Head rotations (independent X and Y-axis)
 
 Movement and rotation speeds
 
-Animation:
+# Animation:
 
 Legs animate only during movement using CalculateLegAnim()
 
@@ -56,7 +56,7 @@ Tabletop checkerboard pattern (8x8 grid)
 
 Robot shine from "shine.png" texture (red channel × 16)
 
-Debug views:
+# Debug views:
 
 Normal vectors
 
@@ -83,17 +83,17 @@ Matches robot's orientation
 
 Toggleable in GUI
 
-Implementation Notes
+# Implementation Notes
 Hierarchical Transformations
 Robot parts are transformed relative to their parents using the provided offset vectors. This creates realistic joint movements.
 
-Animation System
+# Animation System
 Leg animation is synchronized with movement and pauses when the robot stops. The animOffset parameter creates alternating leg motion.
 
-Shader Customization
+# Shader Customization
 Different shader effects are controlled by passing integer flags to indicate object types (table, robot parts, etc.).
 
-How to Use
+# How to Use
 Run the program
 
 Use GUI sliders to control robot joints
@@ -104,11 +104,10 @@ Toggle debug views and camera mode in GUI
 
 Click to fire laser from robot's head
 
-Assets
+# Assets
 Textures: Wood_Table_Texture.png, Robot_Texture.png, shine.png
 
-Models: torso.obj, head.obj, arm/leg OBJ files
+# Models: torso.obj, head.obj, arm/leg OBJ files
 
 This project demonstrates computer graphics concepts including hierarchical modeling, Phong shading, texture mapping, and interactive 3D controls.
 
-New chat
